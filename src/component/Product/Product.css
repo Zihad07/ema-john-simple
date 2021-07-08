@@ -1,0 +1,28 @@
+.product {
+	display: flex;
+	align-items: centers;
+	border-bottom: 1px solid lightslategray;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 5pxs;
+}
+
+.product-description {
+	padding-left: 10px;
+}
+.product-name {
+	color: blue;
+	font-weight: 400;
+}
+
+.main-btn {
+	background: goldenrod;
+	width: 150px;
+	height: 30px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	font-weight: 700;
+	text-transform: capitalize;
+	cursor: pointer;
+}
