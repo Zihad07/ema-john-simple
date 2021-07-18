@@ -16,8 +16,8 @@ const Shop = () => {
 		console.log(product);
 	};
 	return (
-		<div className="shop-container">
-			<div className="products-container">
+		<div className='shop-container'>
+			<div className='products-container'>
 				<h1>This is shop. Products({products.length})</h1>
 				<ul>
 					{products.map((pd) => (
@@ -25,11 +25,12 @@ const Shop = () => {
 							key={pd.key}
 							product={pd}
 							handleAddProduct={handleAddProduct}
+							showAddCart={true}
 						></Product>
 					))}
 				</ul>
 			</div>
-			<div className="cart-container">
+			<div className='cart-container'>
 				<Cart cart={cart}></Cart>
 			</div>
 		</div>
